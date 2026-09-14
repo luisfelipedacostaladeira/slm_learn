@@ -12,12 +12,15 @@ dependencies = [
     "bitsandbytes>=0.50.2",
     "datasets>=5.0.1",
     "evaluate>=0.4.6",
+    "huggingface-hub>=1.31.0",
     "matplotlib>=3.11.2",
     "numpy>=2.4.6",
     "pandas>=3.0.5",
     "peft>=0.20.0",
     "protobuf>=7.36.1",
+    "pyyaml>=6.0.3",
     "rich>=15.0.0",
+    "safetensors>=0.8.0",
     "sentencepiece>=0.2.2",
     "tensorboard>=2.21.0",
     "torch>=2.14.0",
@@ -26,10 +29,11 @@ dependencies = [
     "tqdm>=4.70.1",
     "transformers>=5.17.0",
     "trl>=1.13.0",
+    "typer>=0.27.2",
 ]
 
 [project.scripts]
-slm-learn = "slm_learn:main"
+slm-learn = "slm_learn.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.6,<0.13.0"]
