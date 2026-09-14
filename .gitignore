@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/cache/
+models/
+checkpoints/
+outputs/
+runs/
+wandb/
